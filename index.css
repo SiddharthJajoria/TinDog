@@ -1,0 +1,140 @@
+#title{
+  background-color: #ff4c68;
+}
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+  color: white;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+#cta{
+  background-color: #ff4c68  ;
+  text-align: center;
+}
+#footer{
+  text-align: center;
+  padding: 5% 0;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+.container-fluid{
+  padding: 3% 15% 8%  ;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.down-btn{
+  margin: 3% 5% 3% 0;
+}
+.phone{
+  width: 60%;
+  transform:rotate(25deg);
+  position: absolute;
+  right: 27%;
+}
+.check{
+  font-size:5rem;
+  color: #ef8172;
+}
+.card-body{
+  text-align: center;
+}
+.check:hover{
+  color:  #ff4c68;
+}
+.test-pic{
+  border-radius: 100%;
+  width: 10%;
+  margin: 2rem;
+}
+.press-pic{
+  width: 12%;
+  margin: 0 2.5%;
+}
+.dogo{
+  text-align: center;
+}
+.price-col{
+  padding: 2% 3%;
+}
+.footer-line{
+  padding:4% 15%;
+  font-size: 3rem;
+  color:white;
+}
+.fab-logo{
+  margin: 1%;
+  font-size: 1.5rem;
+}
+.fab-logo:hover{
+  color:#ff4c68;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-top: 40px;
+  color: white;
+}
+h2{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2.5em;
+  line-height: 1.5;
+  padding: 0 5%;
+}
+body{
+  font-family: "Montserrat";
+}
+p{
+  color: #8f8f8f;
+  line-height: 1.5;
+}
+/*mediaquery*/
+@media (max-width:990px) {
+.phone{
+  position: static;
+  transform: rotate(0);
+
+}
+#title{
+  text-align: center;
+}
+}
